@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+   <style>
+   .container-1 div {
+      width: 70%;
+      
+   }
+   .container-2{
+      width: 70%;
+      margin: auto;
+   }
+   .box-1{
+      top: 4px;
+    margin: auto;
+    margin-left: 150px;
+    position: relative;
+      
+   }
+   .box-sb1{
+      height: 20px;
+      background-color: grey;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      margin-left:150px;
+   } 
+   .box-sb2{
+      color: white;
+      height: 30px;
+      background-color: grey;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      margin-left:150px;
+   
+   } 
+  
+   .gridiv{
+    background-color: red;
+    width:60%;
+    height:500px;
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.section1{
+   padding: 20px;
+   height:500px;
+   display: grid;
+    grid-template-columns: 50% 50%;
+}
+  
+   a{      
+      text-decoration: none;
+      color: white;
+   }
+   #a1{
+      color: red;
+   }
+   body{ background-image: url("images/dark-wood.jpg") ;
+         background-repeat: inherit;}
+   li{
+      list-style: none;
+      padding-left: 10%;
+   }
+   
+   </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>   
+</head>
+<body>
+   <div class="container-1">
+      <!--div 1st-->
+      <div class="box-1">
+         <img src="images/header.jpg" width="100%">
+      </div>
+       <div class="box-sb1">
+            <li><a href="#home">home</a></li>
+            <li><a href="#home">classes</a></li>
+            <li><a href="#home">catering</a></li>
+            <li><a href="#home">about</a></li>
+            <li><a href="#contact">contact</a></li>
+      </div>
+      <!--div 2nd -->
+     
+         <!--first col-->
+         <div class="gridiv">
+
+            <div class="section1" style="background-color: white; width: initial;">
+               <div class="blockchoi" style=" width: auto; border: 1px inherit black;">
+                  <img src="images/bok-choi.jpg" alt="bok-choi">
+                  <figcaption>bok-choi</figcaption>
+               </div>
+                <div class="japaneeses" style=" width: auto;">
+                  <h3>Japanese Vegetarian</h3>
+                  <br>
+                  <h4 style="color: red;">Five week course in London</h4>
+                  <br>
+                  <p>A five week introduction to traditional<br>
+                      japanese vegetarian meals,teaching you a<br>
+                       selection of rice and noodle dishes.
+               </p>
+                </div>
+                <div class="teriyaki" style=" width: auto;">
+                     <img src="images/teriyaki.jpg" alt="">
+                     <figcaption>Teriyaki Sause</figcaption>
+                </div>
+                <div class="sauces" style=" width: auto;">
+                  <h3>Sauces Masterclass</h3>
+                  <br>
+                  <h4 style="color: red;">One day workshop</h4>
+                  <br>
+                  <p>An intensive one day couselooking at how <br>
+                     to create the most delicious sauces for use in<br>
+                      a range of Japanese Saucery
+                  
+               </p>
+                </div>
+         </div>
+         <!---->
+         <div class="section2" style="background-color: white; width: initial;">
+
+            <div class="link1" >
+            <h2 style="color: red;">Popular Recipes</h2>
+            <a id="a1" href="#">Yakitori(Grilled Chiken)</a><br><hr>
+            <a id="a1" href="#">Tsukune(minced chiken patties)</a><br><hr>
+            <a id="a1" href="#">Okonomiyaki(savory pancakes)</a><br><hr>
+            <a id="a1" href="#">Mizutaki(chiken stew)</a><br><hr>
+            </div>
+            <div class="link2">
+            <h2 style="color: red;">Contact</h2>
+            <p> YOKO'S Kitchen<br>
+               Younus College of Engineering<br>
+                Pallimukku<br>
+                Vadakkevila<br>
+                Kollam-691010<br>
+            </p>
+            </div>
+            <!--end of second grid-->
+         </div>
+         <!---->
+         <div class="box-sb2" style="display: inline-block;  width: 1110px; top: 630px;     margin-left: 0px;">&copy;2011 YOKO'S Kitchen</div>
+      </div>
+
+
+
+     
+
+
+       <!--div 3rd -->
+      
+
+
+
+
+
+     
+<!--final div close-->
+   </div> 
+</body>
+</html>
