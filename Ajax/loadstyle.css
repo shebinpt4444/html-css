@@ -1,0 +1,50 @@
+hr{
+    height: 4px;
+    background-color: black;
+}
+
+#navbar{
+    position: relative;
+    margin-left: 50em;
+    top: 3em;
+    
+    
+}
+.current{
+    color: red;
+}
+a{
+    font-size: 2em;
+    text-decoration: black;
+}
+.container{
+    margin-left: 15em;
+    display: grid;
+    
+
+}
+#area{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    
+}
+#element{
+    padding-left: 5em;
+    padding-top: 15em;
+   
+    
+}
+#element1{
+    padding-left: 5em;
+    padding-top: 15em;
+   
+    
+}
+h1{
+font-size: 300%;
+}
+#heading{
+    position: absolute;
+    display: inline;
+}
